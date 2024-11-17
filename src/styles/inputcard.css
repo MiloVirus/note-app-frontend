@@ -1,0 +1,74 @@
+.note-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .note-card-title-input {
+    font-size: 1.25em;
+    margin: 20px 0 8px 0;
+    color: #333;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    background: rgb(185, 185, 185);
+    padding: 4px;
+    box-shadow: none;
+  }
+  
+  .note-card-content-input {
+    font-size: 1em;
+    color: #666;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    padding: 4px;
+    background: rgb(185, 185, 185);
+    box-shadow: none;
+  }
+
+.saveBtn
+{
+  margin-top: 20px;
+}
+.tagsContainer
+  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  
+  .tags
+  {
+    background-color: rgb(211, 208, 212);
+    border-radius: 8px;
+    margin: 3px;
+    padding: 3px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .tags.active {
+    background-color: #a104b6; 
+    color: white;
+  }
+
+  .tagAdd
+  {
+      width: 50px;
+      height: 30px;
+      font-size: 14px;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }

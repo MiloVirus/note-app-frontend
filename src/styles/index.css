@@ -1,0 +1,17 @@
+.noteContainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonCard
+{
+    width: 150px;
+    height: 150px;
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}

@@ -1,0 +1,29 @@
+
+.navbar {
+    padding: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar li.active {
+    font-weight: bold;
+    color: #c400fa;
+  }
+  
+  .content {
+    margin-top: 20px;
+    text-align: center;
+  }
+  

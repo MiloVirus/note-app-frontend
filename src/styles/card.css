@@ -1,0 +1,138 @@
+.note-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .note-card-title {
+    font-size: 1.25em;
+    margin: 0 0 8px 0;
+    color: #333;
+  }
+  
+  .note-card-content {
+    font-size: 1em;
+    color: #666;
+  }
+
+  .starBtnWhite
+  {
+    background-color: red;
+  }
+
+  .starBtnBlack
+  {
+    background-color: black;
+  }
+
+  .tagsContainer
+  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10%;
+  }
+  
+  .tagsCard
+  {
+    background-color: rgb(114, 113, 114);
+    border-radius: 8px;
+    margin: 3px;
+    padding: 3px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    border: none;
+    margin-bottom: 10px;
+    color: #ffffff;
+    background-color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the icon inside the button */
+    font-size: 0.5rem;
+    border-radius: 50%; /* Make the button circular */
+    width: 35px; /* Set width of the button */
+    height: 35px; /* Set height of the button */
+    padding: 0; /* Remove padding to keep the circle size fixed */
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .edit-btn:hover {
+    background-color: #555; /* Change color on hover */
+  }
+  
+  .edit-btn svg {
+    width: 20px; /* Set size of the icon */
+    height: 20px;
+  }
+
+  .note-card-title-input-edit {
+    font-size: 1.25em;
+    margin: 0 0 8px 0;
+    color: #333;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    background: rgb(185, 185, 185);
+    padding: 4px;
+    margin-top: 10px;
+    box-shadow: none;
+  }
+  
+  .note-card-content-input-edit {
+    font-size: 1em;
+    color: #666;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    
+    padding: 4px;
+    background: rgb(185, 185, 185);
+    box-shadow: none;
+  }
+  
+  .tag {
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  
+}
+.tagsCard.active {
+  background-color: #a104b6; 
+  color: white;
+}
+.tagsCard.nonActive {
+  display: none;
+}
+
+.highlighted {
+  background-color: #ff6b6b; /* Highlight color */
+  color: white;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btnContainer
+{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
